@@ -28,5 +28,5 @@ export type Movie = {
 };
 
 export type SimilarMovie = {
-  $similarity: number;
+  $similarity: Number;
 } & Movie;
